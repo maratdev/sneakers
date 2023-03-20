@@ -28,8 +28,9 @@ function App() {return (
       </ul>
       <button className="slider__pagination slider__pagination-r"></button>
     </section>
-    <section className="card-grid">
-      <h1>Все кроссовки</h1>
+    <section className="search">
+      <h1 className="search__title">Все кроссовки</h1>
+      <input className="search__input" type="text" placeholder="Поиск..."/>
     </section>
   </main>
 </div>

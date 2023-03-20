@@ -1,0 +1,17 @@
+.search__input{
+  max-width: 250px;
+  min-height: 45px;
+  border-radius: 10px;
+  border:1px solid #F3F3F3;
+  outline: none;
+  background: 18px / 15px no-repeat url("/images/search.svg") #fff;
+  &::placeholder{
+    margin-left:0;
+    color:#C4C4C4;
+    font-size: 0.875rem;
+  }
+  &[type="text"]{
+    padding-left: 50px;
+    color: #a4a4a4;
+  }
+}
