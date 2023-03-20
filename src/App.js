@@ -22,15 +22,32 @@ function App() {return (
   </header>
   <main className="content">
     <section className="slider">
-      <button className="slider__pagination slider__pagination-l"></button>
+      <button type="button" className="slider__pagination slider__pagination-l"></button>
       <ul className="slider__list">
         <li><a href=""><img src="/images/slider/1.jpg" alt="картинка слайдера"/></a></li>
       </ul>
-      <button className="slider__pagination slider__pagination-r"></button>
+      <button type="button" className="slider__pagination slider__pagination-r"></button>
     </section>
     <section className="search">
       <h1 className="search__title">Все кроссовки</h1>
       <input className="search__input" type="text" placeholder="Поиск..."/>
+    </section>
+    <section className="grid">
+      <ul className="grid__elements">
+        <li className="grid__items">
+          <article className="card">
+            <button className="card__like" type="button" aria-label="Лайк"></button>
+            <img className="card__img" src="/images/card/1.png" alt="Мужские Кроссовки Nike Blazer Mid Suede"/>
+            <h3 className="card__title">Мужские Кроссовки Nike Blazer Mid Suede</h3>
+            <div className="card__desc">
+              <p className="card__cost">Цена</p>
+              <h4 className="card__price">12 999 руб.</h4>
+              <button aria-label="Добавить" type="button" className="card__add"></button>
+            </div>
+          </article>
+
+        </li>
+      </ul>
     </section>
   </main>
 </div>

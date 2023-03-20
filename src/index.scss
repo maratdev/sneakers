@@ -23,10 +23,18 @@
 @import "blocks/slider/__pagination/slider__pagination";
 
 /* ------------------------------------------------Поиск*/
-
 @import "blocks/search/search";
 @import "blocks/search/__title/search__title";
 @import "blocks/search/__input/search__input";
 
+/* ------------------------------------------------GRID*/
+@import "blocks/grid/grid";
+@import "blocks/grid/__elements/grid__elements";
+@import "blocks/grid/__items/grid__items";
+
+@import "blocks/card/card";
+@import "blocks/card/__like/card__like";
+@import "blocks/card/__img/card__img";
+@import "blocks/card/__title/card__title";
 
 
