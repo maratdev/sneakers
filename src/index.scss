@@ -1,0 +1,21 @@
+@import "normalize.css";
+/*----------Подключение шрифтов*/
+@import "fonts/fonts.css";
+@import "blocks/page/page";
+@import "blocks/wrapper/wrapper";
+
+/* ------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
+@import "blocks/header/header";
+@import "blocks/header/__wrap/header__wrap";
+@import "blocks/header/__logo/header__logo";
+@import "blocks/header/__logo-img/header__logo-img";
+@import "blocks/header/__title/header__title";
+@import "blocks/header/__subtitle/header__subtitle";
+
+@import "blocks/header/__basket/header__basket";
+@import "blocks/header/__price/header__price";
+@import "blocks/header/__item/header__item";
+@import "blocks/header/__item-img/header__item-img";
+
+
+
