@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './index.scss';
+//import { Carousel } from '';
 
 function App() {return (
 <div className="wrapper">
@@ -23,7 +24,7 @@ function App() {return (
     <section className="slider">
       <button className="slider__pagination slider__pagination-l"></button>
       <ul className="slider__list">
-        <li><img src="/images/slider/1.jpg" alt="картинка слайдера"/></li>
+        <li><a href=""><img src="/images/slider/1.jpg" alt="картинка слайдера"/></a></li>
       </ul>
       <button className="slider__pagination slider__pagination-r"></button>
     </section>
