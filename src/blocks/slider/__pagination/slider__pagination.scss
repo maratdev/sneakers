@@ -1,0 +1,21 @@
+.slider__pagination{
+  position: absolute;
+  display: block;
+  top: 50%;
+  width: 35px;
+  height: 35px;
+  background-color:#fff ;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:nth-of-type(even){
+    background: center / 25% no-repeat url("/images/slider/right.svg") #fff;
+    right: -20px;
+  }
+  &:nth-of-type(odd){
+    background: center / 25% no-repeat url("/images/slider/right.svg") #fff;
+    transform: rotate(180deg);
+    left: -20px;
+  }
+}

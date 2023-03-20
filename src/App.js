@@ -20,7 +20,13 @@ function App() {return (
     </ul>
   </header>
   <main className="content">
-    <section className="slider"></section>
+    <section className="slider">
+      <button className="slider__pagination slider__pagination-l"></button>
+      <ul className="slider__list">
+        <li><img src="/images/slider/1.jpg" alt="картинка слайдера"/></li>
+      </ul>
+      <button className="slider__pagination slider__pagination-r"></button>
+    </section>
     <section className="card-grid">
       <h1>Все кроссовки</h1>
     </section>
