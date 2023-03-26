@@ -37,12 +37,12 @@ function App() {return (
         <li className="grid__items">
           <article className="card">
             <button className="card__like" type="button" aria-label="Лайк"></button>
-            <img className="card__img" src="/images/card/1.png" alt="Мужские Кроссовки Nike Blazer Mid Suede"/>
+            <img className="card__img" src="./images/card/1.png" alt="Мужские Кроссовки Nike Blazer Mid Suede"/>
             <h3 className="card__title">Мужские Кроссовки Nike Blazer Mid Suede</h3>
             <div className="card__desc">
               <p className="card__cost">Цена</p>
               <h4 className="card__price">12 999 руб.</h4>
-              <button aria-label="Добавить" type="button" className="card__add"></button>
+              <button aria-label="Добавить" type="button" className="card__add">+</button>
             </div>
           </article>
 
