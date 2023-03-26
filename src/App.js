@@ -42,7 +42,7 @@ function App() {return (
             <div className="card__desc">
               <p className="card__cost">Цена</p>
               <h4 className="card__price">12 999 руб.</h4>
-              <button aria-label="Добавить" type="button" className="card__add">+</button>
+              <button aria-label="Добавить" type="button" className="card__add"></button>
             </div>
           </article>
 

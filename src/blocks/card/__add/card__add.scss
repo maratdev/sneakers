@@ -1,11 +1,20 @@
 .card__add{
+  grid-area: card__add;
+  justify-self: center;
   width: 32px;
   height: 32px;
   border-radius: 8px;
   border: solid 1px #f2f2f2;
-  background-color: #fff;
+  background: center / 10px no-repeat url("/images/card/+.svg") #fff;
   color: #d3d3d3;
   font-size: 1rem;
-  grid-area: card__add;
   cursor: pointer;
+  transition: all 0.5s ease;
+  &:hover{
+    border-color: #c3ffcf;
+  }
+  &:focus{
+    background: center url("/images/card/add.svg") no-repeat, linear-gradient(to bottom, #89f09c 0%, #3cc755 100%) ;
+  }
 }
+
