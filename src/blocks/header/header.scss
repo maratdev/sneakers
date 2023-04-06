@@ -6,3 +6,19 @@
   min-height: 128px;
   padding: 0 63px 0 60px;
 }
+
+@media (max-width: 1023px) {
+  .header{
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header{
+    padding: 20px 0;
+    flex-direction: column;
+    row-gap: 20px;
+    min-height: 0;
+  }
+}
+

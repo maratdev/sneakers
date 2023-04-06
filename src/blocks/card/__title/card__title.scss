@@ -7,3 +7,15 @@
   max-width: 150px;
   margin: 14px auto 0;
 }
+@media (max-width: 768px) {
+  .card__title{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 424px) {
+  .card__title{
+    max-width: 90%;
+  }
+}
+

@@ -3,6 +3,7 @@
 @import "fonts/fonts.css";
 @import "blocks/page/page";
 @import "blocks/wrapper/wrapper";
+@import "blocks/content/content";
 
 /* ------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
 @import "blocks/header/header";
@@ -20,6 +21,9 @@
 /* ------------------------------------------------СЛАЙДЕР*/
 @import "blocks/slider/slider";
 @import "blocks/slider/__list/slider__list";
+@import "blocks/slider/__item/slider__item";
+@import "blocks/slider/__src/slider__src";
+@import "blocks/slider/__img/slider__img";
 @import "blocks/slider/__pagination/slider__pagination";
 
 /* ------------------------------------------------Поиск*/
@@ -40,5 +44,6 @@
 @import "blocks/card/__cost/card__cost";
 @import "blocks/card/__price/card__price";
 @import "blocks/card/__add/card__add";
+@import "blocks/card/__title-src/card__title-src";
 
 

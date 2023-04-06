@@ -5,3 +5,11 @@
   max-width: 960px;
   margin: 0 auto;
 }
+
+@media (max-width: 520px) {
+  .search{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+

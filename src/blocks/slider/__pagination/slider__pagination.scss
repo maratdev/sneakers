@@ -14,11 +14,28 @@
     right: -20px;
   }
 
-
-
   &:nth-of-type(odd){
     background: center / 25% no-repeat url("/images/slider/right.svg") #fff;
     transform: rotate(180deg);
     left: -20px;
+  }
+}
+@media (max-width: 1023px) {
+  .slider__pagination {
+
+    &:nth-of-type(even){
+      right: 20px;
+    }
+    &:nth-of-type(odd){
+      left: 20px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .slider__pagination{
+    width: 25px;
+    height: 25px;
+    top: 40%;
   }
 }

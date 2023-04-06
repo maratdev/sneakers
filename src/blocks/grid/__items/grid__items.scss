@@ -1,8 +1,23 @@
 .grid__items{
-
   position: relative;
   max-width: 210px;
   min-height: 260px;
   border: 1px solid #F3F3F3;
   border-radius: 40px;
+  &:hover{
+    box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.05);
+  }
+}
+
+@media (min-width: 425px) and (max-width: 1023px) {
+  .grid__items{
+    padding: 10% 10%;
+  }
+}
+
+@media (max-width: 424px) {
+  .grid__items{
+    max-width: 250px;
+    min-height: 275px;
+  }
 }

@@ -9,3 +9,14 @@
     ". card__add";
   padding-left: 30px;
 }
+
+@media (min-width: 425px) and (max-width: 865px) {
+  .card__desc{
+    padding:0;
+  }
+}
+@media (max-width: 424px) {
+  .card__desc{
+    padding-left: 5%;
+  }
+}
