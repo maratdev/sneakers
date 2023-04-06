@@ -46,4 +46,18 @@
 @import "blocks/card/__add/card__add";
 @import "blocks/card/__title-src/card__title-src";
 
+/* ------------------------------------------------DRAWER*/
+@import "blocks/drawer/drawer";
+@import "blocks/drawer/__container/drawer__container";
+@import "blocks/drawer/__title/drawer__title";
 
+/* ------------------------------------------------CART-ITEM*/
+@import "blocks/cart/cart";
+@import "blocks/cart/__items/cart__item";
+@import "blocks/cart/__src/cart__src";
+@import "blocks/cart/__img/cart__img";
+@import "blocks/cart/__title/cart__title";
+@import "blocks/cart/title-src/cart__title-src";
+@import "blocks/cart/__desc/cart__desc";
+@import "blocks/cart/__price/cart__price";
+@import "blocks/cart/__del/cart__del";

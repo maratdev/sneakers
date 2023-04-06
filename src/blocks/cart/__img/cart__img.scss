@@ -1,0 +1,10 @@
+.cart__img{
+  display: inline-block;
+  object-fit: cover;
+  height: 70px;
+  width: auto;
+  transition: transform 0.5s ease;
+  &:hover{
+    transform: scale(1.05);
+  }
+}
