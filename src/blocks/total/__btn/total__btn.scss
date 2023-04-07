@@ -1,0 +1,20 @@
+.total__btn{
+  margin-top: 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: normal;
+  padding: 18px 0;
+  width: 100%;
+  border-radius: 18px;
+  background: 90% / 13px no-repeat url("/images/card/arrow.svg") #9dd458;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  &:hover{
+    background-position: 92%;
+    background-color: #35ae79;
+  }
+}

@@ -1,4 +1,4 @@
-.drawer__close{
+.cart__del{
   cursor: pointer;
   display: block;
   align-self: center;
@@ -6,9 +6,8 @@
   border-radius: 8px;
   border: solid 1px #f2f2f2;
   background: center / 10px no-repeat url("/images/card/del.svg") #fff;
-  transition: all 0.3s ease;
+  transition: border-color 0.5s ease;
   &:hover{
-    border: solid 1px #dedede;
-    transform: scale(1.05);
+    border-color: #ffc3ce;
   }
 }

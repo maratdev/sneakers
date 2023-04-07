@@ -50,6 +50,7 @@
 @import "blocks/drawer/drawer";
 @import "blocks/drawer/__container/drawer__container";
 @import "blocks/drawer/__title/drawer__title";
+@import "blocks/drawer/__close/drawer__close";
 
 /* ------------------------------------------------CART-ITEM*/
 @import "blocks/cart/cart";
@@ -61,3 +62,11 @@
 @import "blocks/cart/__desc/cart__desc";
 @import "blocks/cart/__price/cart__price";
 @import "blocks/cart/__del/cart__del";
+
+/* ------------------------------------------------CART-TOTAL*/
+@import "blocks/total/total";
+@import "blocks/total/__price/total__price";
+@import "blocks/total/__title/total__title";
+@import "blocks/total/__dashed/total__dashed";
+@import "blocks/total/__cost/total__cost";
+@import "blocks/total/__btn/total__btn";

@@ -5,9 +5,10 @@ import './index.scss';
 
 function App() {return (
 <div className="wrapper">
-  <div className="drawer"> 
+  <div className="drawer">
     <div className="drawer__container">
-      <h3 className="drawer__title">Корзина</h3>
+      <h3 className="drawer__title">Корзина <button className="drawer__close"></button></h3>
+
       <ul className="cart">
         <li className="cart__item">
           <a className="cart__src" href=""><img className="cart__img" src="./images/card/2.png" alt="Мужские Кроссовки Nike Air Max 270"/></a>
@@ -25,7 +26,22 @@ function App() {return (
           </div>
           <button aria-label="Удалить" type="button" className="cart__del"></button>
         </li>
+
       </ul>
+      <ul className="total">
+        <li className="total__price">
+          <span className="total__title">Итого:</span>
+          <div className="total__dashed"></div>
+          <span className="total__cost">21 498 руб. </span>
+        </li>
+        <li className="total__price">
+          <span className="total__title">Налог 5%:</span>
+          <div className="total__dashed"></div>
+          <span className="total__cost">1074 руб. </span>
+        </li>
+        <button className="total__btn">Оформить заказ</button>
+      </ul>
+
     </div>
   </div>
   <header className="header">
