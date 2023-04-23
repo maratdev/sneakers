@@ -14,3 +14,10 @@
     background-color: #d0d0d0;
   }
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .cart{
+    margin-right:0;
+  }
+}
+

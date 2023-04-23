@@ -11,3 +11,11 @@
     border-color: #ffc3ce;
   }
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .cart__del{
+    order: -1;
+    align-self: flex-end;
+  }
+}
+

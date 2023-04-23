@@ -10,3 +10,16 @@
   background-color: #fff;
   box-shadow: -10px 4px 24px 0 rgba(0, 0, 0, 0.1);
 }
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .drawer__container{
+    width: 300px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .drawer__container{
+    width: 250px;
+    padding: 22px 15px 0 19px;
+  }
+}

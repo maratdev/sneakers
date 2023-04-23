@@ -8,3 +8,9 @@
     transform: scale(1.05);
   }
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .cart__img{
+    height: auto;
+  }
+}
