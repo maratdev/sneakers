@@ -35,7 +35,7 @@ function App() {  return (
     </section>
     <section className="grid">
       <ul className="grid__elements">
-        {card.map((post,key) =>{ return <Card  key={key} title={post.title} img={post.img} price={post.price}/>})}
+        {card.map((post,keys) => (<Card  key={keys} title={post.title} img={post.img} price={post.price} onClickFavorite={()=>console.log('Добавить в закладки')} onClickPlus={()=>console.log('Нажатие на +')}/>))}
       </ul>
     </section>
     <Drawer/>
