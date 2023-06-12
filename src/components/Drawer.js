@@ -1,26 +1,34 @@
-export default function Drawer() {
+export default function Drawer({onClose, cartItems=[]}) {
   return (
-    <div className="drawer drawer__dsp-none">
+    //drawer__dsp-none
+ <div className="drawer">
       <div className="drawer__container">
-        <h3 className="drawer__title">Корзина <button className="drawer__close"></button></h3>
+        <h3 className="drawer__title">Корзина <button onClick={onClose} className="drawer__close"></button></h3>
 
         <ul className="cart">
-          <li className="cart__item">
-            <a className="cart__src" href=""><img className="cart__img" src="./images/card/2.png" alt="Мужские Кроссовки Nike Air Max 270"/></a>
-            <div className="cart__desc">
-              <h4 className="cart__title"><a className="cart__title-src" href="">Мужские Кроссовки Nike Air Max 270</a></h4>
-              <h5 className="cart__price">12 999 руб.</h5>
-            </div>
-            <button aria-label="Удалить" type="button" className="cart__del"></button>
-          </li>
-          <li className="cart__item">
-            <a className="cart__src" href=""><img className="cart__img" src="./images/card/1.png" alt="Мужские Кроссовки Nike Air Max 270"/></a>
-            <div className="cart__desc">
-              <h4 className="cart__title"><a className="cart__title-src" href="">Мужские Кроссовки Nike Blazer Mid Suede</a></h4>
-              <h5 className="cart__price">3 999 руб.</h5>
-            </div>
-            <button aria-label="Удалить" type="button" className="cart__del"></button>
-          </li>
+          {
+            cartItems.map((obj)=> (
+              <li key={obj.id} className="cart__item">
+                <a className="cart__src" href=""><img className="cart__img" src={obj.img} alt={obj.title}/></a>
+                <div className="cart__desc">
+                  <h4 className="cart__title"><a className="cart__title-src" href="">{obj.title}</a></h4>
+                  <h5 className="cart__price">{obj.price}</h5>
+                </div>
+                <button aria-label="Удалить" type="button" className="cart__del"></button>
+              </li>
+
+            )
+            )
+          }
+
+          {/*<li className="cart__item">*/}
+          {/*  <a className="cart__src" href=""><img className="cart__img" src="./images/card/1.png" alt="Мужские Кроссовки Nike Air Max 270"/></a>*/}
+          {/*  <div className="cart__desc">*/}
+          {/*    <h4 className="cart__title"><a className="cart__title-src" href="">Мужские Кроссовки Nike Blazer Mid Suede</a></h4>*/}
+          {/*    <h5 className="cart__price">3 999 руб.</h5>*/}
+          {/*  </div>*/}
+          {/*  <button aria-label="Удалить" type="button" className="cart__del"></button>*/}
+          {/*</li>*/}
 
         </ul>
         <ul className="total">

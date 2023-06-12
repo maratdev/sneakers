@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Header({onClickCard}) {
   return (
     <header className="header">
       <div className="header__logo">
@@ -9,7 +9,7 @@ export default function Header() {
         </div>
       </div>
       <ul className="header__basket">
-        <li className="header__item"><img className="header__item-img" src="/images/basket.svg" alt=""/><span className="header__price">1234 руб.</span></li>
+        <li onClick={onClickCard} className="header__item"><img className="header__item-img" src="/images/basket.svg" alt=""/><span className="header__price">1234 руб.</span></li>
         <li className="header__item"><img src="/images/heart.svg" alt=""/></li>
         <li className="header__item"><img src="/images/user.svg" alt=""/></li>
       </ul>
