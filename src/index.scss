@@ -30,6 +30,7 @@
 @import "blocks/search/search";
 @import "blocks/search/__title/search__title";
 @import "blocks/search/__input/search__input";
+@import "blocks/search/__close/search__close-icon";
 
 /* ------------------------------------------------GRID*/
 @import "blocks/grid/grid";
@@ -64,6 +65,8 @@
 @import "blocks/cart/__desc/cart__desc";
 @import "blocks/cart/__price/cart__price";
 @import "blocks/cart/__del/cart__del";
+@import "blocks/cart/__empty/card__empty";
+@import "blocks/cart/__empty-img/card__empty-img";
 
 /* ------------------------------------------------CART-TOTAL*/
 @import "blocks/total/total";
